@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,14 +11,68 @@
 </head>
 
 <body>
-    <br>
+
+    <h2>Rellena el siguiente cuestionario para formar parte del club de "Amigos de la informática"</h2>
+
+    <form action="#" method="post">
+
+        <!-- Datos personales -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <br>
+
+            <label>Nombre:</label>
+            <input type="text" name="nombre" style="width: 400px;">
+            <br><br>
+
+            <label>Domicilio:</label>
+            <input type="text" name="domicilio" placeholder="<calle, numero y localidad>" style="width: 350px;">
+            <br><br>
+
+            <label>País de origen:</label>
+            <select name="pais">
+                <option value="espana" selected>España</option>
+                <option value="mexico">México</option>
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br><br>
+
+            <label>Fecha de nacimiento:</label>
+            <input type="text" name="fecha_nacimiento" placeholder="dd/mm/aaaa">
+            <br><br>
+
+            <label>Correo electrónico:</label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Teléfono:</label>
+            <input type="tel" name="telefono">
+            <br><br>
+
+            <label>Estado civil:</label>
+            <input type="radio" name="estado_civil" value="soltero"> Solter@
+            <input type="radio" name="estado_civil" value="casado"> Casad@
+            <input type="radio" name="estado_civil" value="separado"> Separad@
+            <input type="radio" name="estado_civil" value="viudo"> Viud@
+            <br><br>
+
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer
+            <br><br>
+
+        </fieldset>
+
+        <br>
 
         <!-- Otra información de interés -->
         <fieldset>
-            <legend><strong>Otra información de interés</strong></legend>
+            <legend>Otra información de interés</legend>
             <br>
 
-            <label><strong>Seleccione los componentes electrónicos con los que habitualmente trabajas:</strong></label>
+            <label>Seleccione los componentes electrónicos con los que habitualmente trabajas:</label>
             <br><br>
             <select name="componentes" multiple size="4">
                 <option value="movil">Móvil</option>
@@ -28,7 +82,7 @@
             </select>
             <br><br>
 
-            <label><strong>Seleccione tus actividades favoritas:</strong></label>
+            <label>Seleccione tus actividades favoritas:</label>
             <br><br>
             <input type="checkbox" name="actividad" value="deporte"> Hacer deporte
 
@@ -58,6 +112,12 @@
 
         <!-- Botones de envío y cancelación -->
         <input type="submit" value="Enviar">
-        
+
         <input type="reset" value="Cancelar">
         <br><br>
+
+    </form>
+
+</body>
+
+</html>
