@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristina Corina Tnasie">
+    <meta name="description" content="Cuestionario para formar parte del club Amigos de la informática">
+    <meta name="keywords" content="formulario, club, informatica, cuestionario">
+    <title>Club Amigos de la Informática</title>
+</head>
+
+<body>
+
+    <h2>Rellena el siguiente cuestionario para formar parte del club de "Amigos de la informática"</h2>
+
+    <form action="#" method="post">
+
+        <!-- Datos personales -->
+        <fieldset>
+            <legend><strong>Datos personales</strong></legend>
+            <br>
+
+            <label><strong>Nombre:</strong></label>
+            <input type="text" name="nombre" style="width: 400px;">
+            <br><br>
+
+            <label><strong>Domicilio:</strong></label>
+            <input type="text" name="domicilio" placeholder="<calle, numero y localidad>" style="width: 350px;">
+            <br><br>
+
+            <label><strong>País de origen:</string></label>
+            <select name="pais">
+                <option value="espana" selected>España</option>
+                <option value="mexico">México</option>
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br><br>
+
+            <label><strong>Fecha de nacimiento:</strong></label>
+            <input type="text" name="fecha_nacimiento" placeholder="dd/mm/aaaa">
+            <br><br>
+
+            <label><strong>Correo electrónico:</strong></label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label><strong>Teléfono:</strong></label>
+            <input type="tel" name="telefono">
+            <br><br>
+
+            <label><strong>Estado civil:</strong></label>
+            <input type="radio" name="estado_civil" value="soltero"> Solter@
+            <input type="radio" name="estado_civil" value="casado"> Casad@
+            <input type="radio" name="estado_civil" value="separado"> Separad@
+            <input type="radio" name="estado_civil" value="viudo"> Viud@
+            <br><br>
+
+            <label><strong>Sexo:</strong></label>
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer
+            <br><br>
+
+        </fieldset>
+
+       
+    </form>
+
+</body>
+
+</html>

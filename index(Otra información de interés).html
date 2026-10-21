@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristina Corina Tnasie">
+    <meta name="description" content="Cuestionario para formar parte del club Amigos de la informática">
+    <meta name="keywords" content="formulario, club, informatica, cuestionario">
+    <title>Club Amigos de la Informática</title>
+</head>
+
+<body>
+    <br>
+
+        <!-- Otra información de interés -->
+        <fieldset>
+            <legend><strong>Otra información de interés</strong></legend>
+            <br>
+
+            <label><strong>Seleccione los componentes electrónicos con los que habitualmente trabajas:</strong></label>
+            <br><br>
+            <select name="componentes" multiple size="4">
+                <option value="movil">Móvil</option>
+                <option value="tablet">Tablet</option>
+                <option value="ordenador">Ordenador</option>
+                <option value="ebook">Ebook</option>
+            </select>
+            <br><br>
+
+            <label><strong>Seleccione tus actividades favoritas:</strong></label>
+            <br><br>
+            <input type="checkbox" name="actividad" value="deporte"> Hacer deporte
+
+            <input type="checkbox" name="actividad" value="amigos"> Salir con mis amigos
+
+            <input type="checkbox" name="actividad" value="series"> Ver series, pelis,...
+            <br><br>
+            <input type="checkbox" name="actividad" value="senderismo"> Realizar rutas de senderismo
+
+            <input type="checkbox" name="actividad" value="cine"> Ir al cine
+
+            <input type="checkbox" name="actividad" value=" musica"> Escuchar música
+            <br><br>
+
+            <label>Explique brevemente el motivo por el que desea ingresar en nuestro club:</label>
+            <br><br>
+            <textarea name="motivo" rows="4" cols="60"></textarea>
+            <br><br>
+
+            <label>Elige o escribe tu peli favorita:</label>
+            <input type="text" name="peli_favorita" style="width: 250px;">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Botones de envío y cancelación -->
+        <input type="submit" value="Enviar">
+        
+        <input type="reset" value="Cancelar">
+        <br><br>
